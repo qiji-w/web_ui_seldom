@@ -148,7 +148,7 @@ view_welcome = Element(xpath='//*[@id="app"]/div[1]/div[2]/div/div[2]/div/div/di
 XTestRunner Running tests...
 
 ----------------------------------------------------------------------
-2022-07-08 17:51:02 log.py | INFO | 📖 https://pre.mastergo.com/files/login
+2022-07-08 17:51:02 log.py | INFO | 📖 127.0.0.1/files/login
 2022-07-08 17:51:06 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="app"]/div[1]/div[2]/div/div[2]/div/div/div/div/div[2]/div/div[1]/input[1]  -> input 'mg_qa@jwzg.com'.
 2022-07-08 17:51:07 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="app"]/div[1]/div[2]/div/div[2]/div/div/div/div/div[2]/div/div[1]/div[8]/div[1]/div[2]/button  -> click.
 2022-07-08 17:51:08 log.py | INFO | ✅ Find 1 element: xpath=//*[@id="app"]/div[1]/div[2]/div/div[2]/div/div/div/div/div[2]/div/div[1]/div[8]/div[1]/div[1]/input  -> input '951210'.
