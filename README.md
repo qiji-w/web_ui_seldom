@@ -171,3 +171,38 @@ Generating HTML reports...
 # 测试报告
 
 ![](report.jpeg)
+
+
+# 最新chromedriver驱动页面的地址如下：
+
+> 最新chromedriver驱动页面的地址（和114及之前的版本相比已经不同，相同的是仍然需要翻墙）
+>> https://googlechromelabs.github.io/chrome-for-testing/#stable
+
+> 117.0.5938.88 稳定版本驱动包的地址，可以直接下载，不需要翻墙：
+>> win32 ：https://link.zhihu.com/?target=https%3A//edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.88/win32/chromedriver-win32.zip
+> 
+>> win64：https://link.zhihu.com/?target=https%3A//edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.88/win64/chromedriver-win64.zip
+> 
+>> Linux64：https://link.zhihu.com/?target=https%3A//edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.88/linux64/chromedriver-linux64.zip
+> 
+>> Mac X64：https://link.zhihu.com/?target=https%3A//edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.88/mac-x64/chromedriver-mac-x64.zip
+> 
+>> Marc arm64:https://link.zhihu.com/?target=https%3A//edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/117.0.5938.88/mac-arm64/chromedriver-mac-arm64.zip
+> 
+> 119.0.6045.105 稳定版本驱动包的地址，可以直接下载，不需要翻墙：
+>> win32: https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/119.0.6045.105/win32/chromedriver-win32.zip
+>
+>> win64: https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/119.0.6045.105/win64/chromedriver-win64.zip
+>
+>> linux64: https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/119.0.6045.105/linux64/chromedriver-linux64.zip
+> 
+> Version:120.0.6099.109(r1217362)稳定版本驱动包的地址，可以直接下载，不需要翻墙：
+>>win32：https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/120.0.6099.109/win32/chromedriver-win32.zip
+> 
+>> win64： https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/120.0.6099.109/win64/chromedriver-win64.zip
+> 
+>> liunux64: https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/120.0.6099.109/linux64/chromedriver-linux64.zip
+> 
+>> mac-x64: https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/120.0.6099.109/mac-x64/chromedriver-mac-x64.zip
+> 
+>> mac-arm64: https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/120.0.6099.109/mac-arm64/chromedriver-mac-arm64.zip
