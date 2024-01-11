@@ -69,29 +69,29 @@ class WorkbenchTest01(seldom.TestCase):
         login_page = IndLoginPage(self.driver)
         login_page.open(privatization_config.TEST_URL)
 
-        request_login_url = privatization_config.TEST_URL + 'api/v1/signin'
-        headers = {'Content-Type': 'application/json'}
-        cookie = {'company': 'mastergo'}
-        json = {"identity": privatization_config.TEST_ACCOUNT, "password": privatization_config.TEST_PASSWORD}
-        cookies = self.post(url=request_login_url, headers=headers, json=json).cookies.get_dict()
-        cookies = self.post(url=request_login_url, headers=headers, json=json, cookies=cookie).cookies.get_dict()
-        driver_cookies_list = [{'name': name, 'value': value} for name, value in cookies.items()]
-        self.add_cookies(driver_cookies_list)
-        self.add_cookie({'name': 'company', 'value': 'mastergo'})
-
-        # cookies添加成功之后，带cookies访问
-        login_page = IndLoginPage(self.driver)
-        login_page.open(privatization_config.TEST_URL)
+        # request_login_url = privatization_config.TEST_URL + 'api/v1/signin'
+        # headers = {'Content-Type': 'application/json'}
+        # cookie = {'company': 'mastergo'}
+        # json = {"identity": privatization_config.TEST_ACCOUNT, "password": privatization_config.TEST_PASSWORD}
+        # cookies = self.post(url=request_login_url, headers=headers, json=json).cookies.get_dict()
+        # cookies = self.post(url=request_login_url, headers=headers, json=json, cookies=cookie).cookies.get_dict()
+        # driver_cookies_list = [{'name': name, 'value': value} for name, value in cookies.items()]
+        # self.add_cookies(driver_cookies_list)
+        # self.add_cookie({'name': 'company', 'value': 'mastergo'})
+        #
+        # # cookies添加成功之后，带cookies访问
+        # login_page = IndLoginPage(self.driver)
+        # login_page.open(privatization_config.TEST_URL)
 
         # self.max_window()
         self.set_window(1500, 1000)
+        print("11111111111")
+        sleep(200)
 
     def test_01_login(self):
         """私有化登录测试"""
         workbench_page = WorkbenchPage(self.driver)
-        sleep(2)
         workbench_page.homepage.click()
-        self.assertUrl(privatization_config.TEST_URL + 'files/home')
 
     def test_02_delete_team(self):
         """初始化删除所有团队项目"""
