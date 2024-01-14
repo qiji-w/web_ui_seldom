@@ -38,8 +38,8 @@ def run(env: str, user: str, pwd: str, hub: str, ):
 
     seldom.main(
         path="page/test_workbench01.py",
-        browser=browser,
-        # browser="gc",
+        # browser=browser,
+        browser="gc",
         title="MG-私有化测试报告",
         report="report.html",
         tester="如果奇迹有颜色",
