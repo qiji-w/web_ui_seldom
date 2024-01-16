@@ -44,7 +44,7 @@ def run(env: str, user: str, pwd: str, hub: str, ):
         report="report.html",
         tester="如果奇迹有颜色",
         description="私有化-自动化测试用例",
-        debug=False  # debug 开关 True/False
+        debug=True  # debug 开关 True/False
     )
 
 
